@@ -1,0 +1,33 @@
+# --- ARCHIVOS DE AUDIO  ---
+# Esto evita que tu música descargada se suba a internet
+descargas/
+*.mp3
+*.webm
+*.m4a
+*.wav
+*.flac
+
+# --- EJECUTABLES Y HERRAMIENTAS ---
+# No debemos subir FFmpeg porque pesa mucho y es un programa externo
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+*.exe
+*.dll
+
+# --- PYTHON Y SISTEMA ---
+# Archivos temporales que genera Python al funcionar
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# --- CONFIGURACIÓN DE VS CODE ---
+.vscode/
+.history/
+
+# --- ARCHIVOS DE SISTEMA ---
+Thumbs.db
+.DS_Store
