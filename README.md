@@ -1,26 +1,47 @@
-# 🎵 PlaylistPorter🚀
+📄 README.md (Versión Final con Contacto)
+Markdown
 
-> El descargador de playlists de YouTube Music en alta fidelidad más sencillo y potente.
+# 📥 TubeBeat - Audio Engine v5.5
 
-[![Python](https://img.shields.io/badge/Python-3.10+-yellow.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+**TubeBeat** es un potente extractor de audio universal diseñado para obtener la máxima fidelidad sonora desde plataformas de streaming. Convierte enlaces de video en archivos MP3 de alta calidad (320kbps) con metadatos y carátulas optimizadas.
 
-**MelodyFlow** es una herramienta de automatización diseñada para melómanos que desean llevar su biblioteca de YouTube Music al mundo offline sin perder calidad. Con un solo clic, procesa listas completas y las convierte a **MP3 de 320kbps**.
+## ✨ Características Principales
+* **Calidad Premium:** Extracción en formato Opus/WebM y conversión a MP3 de **320kbps**.
+* **Descarga Ultra Rápida:** Motor multihilo que descarga hasta 10 fragmentos simultáneos.
+* **Arte de Disco:** Descarga e incrusta la carátula en formato **cuadrado (1:1)** automáticamente.
+* **Gestión de Playlists:** Crea carpetas automáticas y genera archivos de lista **.m3u8**.
+* **Limpieza Inteligente:** Elimina "ruido" en los títulos (ej: "Video Oficial", "1080p") y borra archivos temporales.
+* **Historial:** Evita descargar canciones que ya tienes guardadas.
 
----
+## 🌐 Plataformas Compatibles
+TubeBeat utiliza el motor `yt-dlp`, lo que le permite ser compatible con cientos de sitios, incluyendo:
+* **Música:** YouTube Music, SoundCloud, Bandcamp.
+* **Video:** YouTube (tradicional), Twitch (VODs), Vimeo.
+* **Redes Sociales:** TikTok, Instagram Reels, Facebook Videos.
 
-## 🔥 Por qué usar PlaylistPorter
-* 💎 **Audio Ultra-HD:** Extracción directa y conversión optimizada a 320kbps.
-* 📦 **Batch Download:** Olvídate de bajar una por una; pega el link de la playlist y relájate.
-* 🛠️ **Smart Processing:** Limpieza de nombres de archivo y organización automática.
-* 💻 **Minimalista:** Sin interfaces pesadas, directo desde tu terminal.
+## 🛠️ Instalación y Uso
 
-## 🛠️ Requisitos previos
-Para que la magia ocurra, necesitas:
-1. **Python 3.x** instalado.
-2. **FFmpeg** (debe estar en la carpeta raíz para la conversión de audio).
+1. **Requisitos:** Tener instalado [Python 3.x](https://www.python.org/) y [FFmpeg](https://ffmpeg.org/).
+2. **Instalar Librerías:**
 
-## 🚀 Instalación rápida
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/PlaylistPorter.git](https://github.com/tu-usuario/PlaylistPorter.git)
+📂 Estructura de Archivos
+
+    main.py: El motor principal de la aplicación.
+
+    descargas/: Carpeta donde se guardará tu música.
+
+    historial_descargas.txt: Registro para evitar duplicados.
+
+    ffmpeg.exe: (Opcional) Debe estar en la raíz si no está en el PATH de Windows.
+
+👨‍💻 Contacto y Desarrollador
+
+Si tienes dudas, sugerencias o quieres contactarme para proyectos:
+
+    LinkedIn: Rafael Osvaldo Sanhueza Pulgar 
+
+    Email: osvaldosanhueza98@gmail.com
+
+    GitHub: og-osvaldo
+
+Desarrollado con ❤️ por OG.Osvaldo.studio - 2026
